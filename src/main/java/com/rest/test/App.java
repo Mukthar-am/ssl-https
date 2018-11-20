@@ -47,7 +47,7 @@ public class App {
 
 
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
-        context.setContextPath("/");
+        context.setContextPath("/*");
         server.setHandler(context);
 
         ServletHolder jerseyServlet = context.addServlet(
