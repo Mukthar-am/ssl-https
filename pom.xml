@@ -9,19 +9,14 @@
     <url>http://maven.apache.org</url>
 
     <dependencies>
-
-
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-server</artifactId>
-            <!--<version>9.2.3.v20140905</version>-->
             <version>9.4.14.v20181114</version>
         </dependency>
         <dependency>
             <groupId>org.eclipse.jetty</groupId>
             <artifactId>jetty-servlet</artifactId>
-            <!--<version>9.2.3.v20140905</version>-->
-            <!--<version>9.3.24.v20180605</version>-->
             <version>9.4.14.v20181114</version>
         </dependency>
         <dependency>
@@ -34,18 +29,6 @@
             <artifactId>jersey-container-servlet-core</artifactId>
             <version>2.7</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>org.glassfish.jersey.containers</groupId>-->
-            <!--<artifactId>jersey-container-jetty-http</artifactId>-->
-            <!--&lt;!&ndash;<version>2.7</version>&ndash;&gt;-->
-            <!--<version>2.27</version>-->
-            <!--&lt;!&ndash;<exclusions>&ndash;&gt;-->
-                <!--&lt;!&ndash;<exclusion>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<groupId>org.eclipse.jetty</groupId>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<artifactId>jetty-util</artifactId>&ndash;&gt;-->
-                <!--&lt;!&ndash;</exclusion>&ndash;&gt;-->
-            <!--&lt;!&ndash;</exclusions>&ndash;&gt;-->
-        <!--</dependency>-->
 
         <dependency>
             <groupId>org.glassfish.jersey.media</groupId>
